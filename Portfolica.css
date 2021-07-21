@@ -1,0 +1,523 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+nav.sticky-header.show {
+    background: black;
+    width: 100%;
+    height: 87px;
+    transition: 0.4s;
+}
+
+.copyright p {
+    margin: 0;
+    color: #fff;
+}
+
+.social-buttons i {
+    color: #fff;
+    font-size: 18px;
+    height: 35px;
+    line-height: 35px;
+    transition: all 0.38s ease 0s;
+    width: 35px;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.social-buttons {
+    margin-bottom: 20px;
+}
+
+.copyright {
+    background: #000;
+    position: relative;
+    padding: 90px 0;
+}
+
+.scroll-up i.fa {
+    background: #fff none repeat scroll 0 0;
+    font-size: 25px;
+    height: 35px;
+    line-height: 31px;
+    text-align: center;
+    width: 35px;
+}
+
+a {
+    color: #ff6902;
+    transition: all 0.3s ease 0s;
+}
+
+.scroll-up {
+    position: absolute;
+    right: 20px;
+    text-align: right;
+    transition: all 0.3s ease 0s;
+    z-index: 2;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: none;
+}
+
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+}
+
+#contactForm .form-control {
+    border-color: #ccc;
+    color: #333;
+    border-radius: 0;
+    height: 50px;
+    padding: 16px 10px;
+}
+
+#map iframe {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+.partners-logo img:hover {
+    opacity: .7;
+}
+
+.partners-logo img {
+    background-color: #fff;
+    transition: .5s;
+}
+
+.partners {
+    text-align: center;
+    background-attachment: fixed;
+    background-image: url(http://perfectpixelweb.com/portfolica/assets/images/parallax-bg/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+}
+
+.feedback-content h4 {
+    color: #2c0d46;
+}
+
+.feedback-content p {
+    padding: 25px 0;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.feedback .feedback-content img {
+    display: inline-block;
+    max-width: 100px;
+    text-align: center;
+}
+
+/*.feedback-content.text-center.active {
+    opacity: 1;
+    display: block;
+    /*visibility: visible;
+}*/
+
+.feedback-content span{
+	color: #777;
+	font-size: 14px;
+}
+
+.feedback-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    /*visibility: hidden;*/
+    
+}
+
+.feedback-area {
+    width: 100%;
+    height: 256px;
+    position: relative;
+    /*overflow:hidden;*/
+}
+
+.helf-text {
+    color: #fff;
+    margin: 4px 0;
+}
+
+.help {
+    background-attachment: fixed;
+    background-image: url(http://perfectpixelweb.com/portfolica/assets/images/parallax-bg/1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    position: relative;
+}
+
+.hovereffect:hover a.info {
+    transition-delay: .2s;
+}
+
+.hovereffect:hover h2, .hovereffect:hover a.info {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.hovereffect:hover .hvr-overlay {
+    opacity: 1;
+}
+
+.hovereffect:hover img {
+    transform: scale(1.2);
+}
+
+.hovereffect a.info {
+    background-color: transparent;
+    color: #fff;
+    left: 47%;
+    opacity: 0;
+    position: absolute;
+    top: 45%;
+    transition: all 0.4s ease 0s;
+    transform: scale(1.5);
+}
+
+.hvr-overlay h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    background: #ff6902;
+    transform: translateY(-100px);
+    transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    padding: 10px;
+}
+
+.hvr-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(26, 8, 42, 0.8);
+    transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+    overflow: hidden;
+    opacity: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.hovereffect img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
+}
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.section-title h3 {
+    border: 1px solid #ff6902;
+    border-radius: 30px;
+    color: #000;
+    display: inline-block;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding: 12px 25px;
+    text-transform: uppercase;
+}
+
+.counter-contents i {
+    font-size: 35px;
+    color: #fff;
+}
+
+.counter-contents h4 {
+    color: #fff;
+    font-weight: 500;
+    padding-top: 12px;
+}
+
+.counter-contents .plus {
+    margin: 0;
+}
+
+.counter-contents span {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.counter-contents {
+    line-height: 40px;
+    padding: 25px 0;
+}
+
+.status {
+    background-attachment: fixed;
+    background-image: url(http://perfectpixelweb.com/portfolica/assets/images/parallax-bg/4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 60px 0;
+    position: relative;
+}
+
+.single-services:hover i {
+    background-color: #2c0d46;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.single-services p {
+    margin: 0;
+}
+
+.single-services h4 {
+    margin: 20px 0 10px;
+    text-transform: uppercase;
+    transition: all 0.25s ease 0s;
+}
+
+.single-services i {
+    color: #000;
+    font-size: 2em;
+    height: 80px;
+    line-height: 78px;
+    transition: all 0.2s ease 0s;
+    width: 80px;
+}
+
+.single-services {
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 30%);
+    margin-bottom: 35px;
+    padding: 30px 20px;
+    transition: all 0.5s ease 0s;
+}
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+}
+
+a.portfolica-btn:hover{
+    color : #fff;
+    text-decoration : none;
+}
+.portfolica-btn {
+    background: #2c0d46;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.about-content p {
+    font-size: 15px;
+    margin-bottom: 26px;
+}
+
+.about-content h3 {
+    color: #2c0d46;
+    display: inline-block;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+.section-title {
+    padding-bottom: 70px;
+}
+
+.section-padding {
+    padding: 90px 0;
+}
+
+.bg-color {
+    background-color: #f3f8fb;
+}
+
+.navbar-header {
+    float: left;
+}
+
+header#home {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.intro-right ul li {
+    background: #000;
+    margin-bottom: 4px;
+    padding: 6px 8px;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: -5px;
+    list-style: none;
+}
+
+.intro-right ul {
+    max-width: 70%;
+}
+
+.intro-right .typed-cursor {
+    color: #ff6902;
+    margin: 40px 0;
+}
+
+.intro-right span {
+    color: #fff;
+    display: inline-block;
+    font-family: "Lato",sans-serif;
+    font-size: 54px;
+    font-weight: 800;
+}
+
+.intro-right h2, .intro-right ul {
+    color: #fff;
+}
+
+.intro-left img {
+    border: 5px solid #000;
+    padding: 10px;
+}
+
+.display-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.display-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+li.dropdown>a:hover ul.dropdown-menu {
+    zoom: 1;
+    display: block;
+}
+
+ul.dropdown-menu.show>li {
+    margin-left: -19px;
+}
+
+ul.dropdown-menu.show {
+    margin-top: 29px;
+    margin-left: 43px;
+}
+
+.overlay {
+    background-color: rgba(26,8,42,0.8);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.intro {
+    background-attachment: fixed;
+    background-image: url(http://perfectpixelweb.com/portfolica/assets/images/parallax-bg/2.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 170px 0;
+    position: relative;
+}
+
+ul.nav.navbar-right>li:hover a {
+    color: #ff6902;
+    text-decoration: none;
+}
+
+ul.nav.navbar-right li a {
+    color: #fff;
+}
+
+ul.nav.navbar-right li {
+    padding-left: 39px;
+    text-decoration: none;
+}
+
+.navbar li {
+    position: relative;
+    display: block;
+}
+
+.navbar-header .navbar-brand {
+    border: 3px solid #ff6902;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    height: 100%;
+    margin-left: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.sticky-header {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    margin: 0;
+    padding: 20px 0;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar {
+    float: right;
+}
